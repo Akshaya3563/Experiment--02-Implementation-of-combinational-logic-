@@ -41,8 +41,8 @@ Write the Combinational Logic Code:
 
 *Give the Input Combinations according to the Truth Table and then simulate the Output Waveform
 
-# Logic Diagram
-## ProcedureCreate a New Project:
+
+# ProcedureCreate a New Project:
 Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
 
 Create a New Design File:
@@ -69,12 +69,13 @@ Write the Combinational Logic Code:
 
 *Give the Input Combinations according to the Truth Table and then simulate the Output Waveform
  
-## Program:
+# Program:
 /* 
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: AKSHAYA N
-RegisterNumber: 212223050003 
+RegisterNumber: 212223050003  
+
 module ex2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -86,6 +87,7 @@ assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
+ 
 */
 # RTL realization
 ![image](https://github.com/Akshaya3563/Experiment--02-Implementation-of-combinational-logic-/assets/155092474/88a7bd90-c71b-46fb-bd0c-20a472317645)
