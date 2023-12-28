@@ -18,10 +18,11 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
  
 # Program:
-/* 
+
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: AKSHAYA N
-RegisterNumber: 212223050003  
+RegisterNumber: 212223050003
+/*
 module ex2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -31,9 +32,9 @@ assign x2=(A)&(~C)&(~D);
 assign x3=(~B)&(C)&(~D);
 assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
-
 assign F1=x1|x2|x3|x4|x5;
 endmodule
+/*
 
 # RTL realization
 ![image](https://github.com/Akshaya3563/Experiment--02-Implementation-of-combinational-logic-/assets/155092474/88a7bd90-c71b-46fb-bd0c-20a472317645)
