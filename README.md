@@ -48,7 +48,8 @@ Write the Combinational Logic Code:
  
 # Program:
 
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.  
+
 Developed by: AKSHAYA N
 RegisterNumber: 212223050003
 
